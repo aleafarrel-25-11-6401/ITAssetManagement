@@ -1,0 +1,38 @@
+# Konfigurasi Lokal & Kredensial (Jangan pernah di-commit!)
+App.config
+*.env
+*.secret
+
+# Folder AI Agent, Editor, & IDE
+.agents/
+.vscode/
+.vs/
+skills-lock.json
+ITAM-documentation/.obsidian/workspace.json
+
+# Hasil Build & Cache .NET / Visual Studio
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+TestResults/
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+*.pdb
+*.cache
+*.ilk
+*.ncb
+*.opendb
+*.VC.db
+*.pidb
+*.scc
+
+# File Sementara OS
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store

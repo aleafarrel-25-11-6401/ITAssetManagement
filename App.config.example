@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <startup>
+        <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.7.2" />
+    </startup>
+
+    <!-- Salin file ini menjadi App.config lalu isi dengan URL dan Publishable Key proyek Supabase Anda -->
+    <appSettings>
+        <add key="SupabaseUrl" value="https://YOUR_PROJECT_REF.supabase.co" />
+        <add key="SupabaseKey" value="sb_publishable_YOUR_SUPABASE_KEY" />
+    </appSettings>
+</configuration>

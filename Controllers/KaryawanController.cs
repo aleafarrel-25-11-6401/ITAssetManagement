@@ -17,7 +17,8 @@ namespace ITAssetManagement.Controllers
                 .Where(k => (k.Nik ?? "").ToLower().Contains(keyword)
                          || (k.Nama ?? "").ToLower().Contains(keyword)
                          || (k.Divisi ?? "").ToLower().Contains(keyword)
-                         || (k.Jabatan ?? "").ToLower().Contains(keyword))
+                         || (k.Jabatan ?? "").ToLower().Contains(keyword)
+                         || (k.Kontak ?? "").ToLower().Contains(keyword))
                 .ToList();
         }
 
